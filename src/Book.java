@@ -4,8 +4,9 @@ abstract class Book {
     protected String book_id;
     protected String book_name;
     protected int book_price;
-    protected String book_public;
+    public String book_public;
     protected int book_nums;
+    public float total_price;
     protected void Input(){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Id of Book : ");
